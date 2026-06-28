@@ -20,7 +20,7 @@ Only when all three of these checks pass is the player added to the arrays and t
 
 * `Franchise.java`
   * The core model class. Contains the object state (budget, squad limits, player name arrays, jersey number arrays) and the conditional logic for validating and executing player signings.
-* `FranchiseTester.java`
+* `Franchise_tester.java`
   * The driver code. Contains the main method, instantiates multiple franchise objects, and runs specific execution scenarios to test the validation constraints and output formatting.
 
 ## Installation & Execution
@@ -28,9 +28,9 @@ Only when all three of these checks pass is the player added to the arrays and t
 1. Clone this repository to your local machine.
 2. Open your terminal and navigate to the project directory.
 3. Compile the Java files:
-   `javac FranchiseTester.java Franchise.java`
+   `javac Franchise_tester.java Franchise.java`
 4. Run the driver class:
-   `java FranchiseTester`
+   `java Franchise_tester`
 
 ## Author
 
